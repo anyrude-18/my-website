@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Bid Wars</title>
+	<style>
+		/* Add your CSS styles here*/
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 10px;
+		}
+		main {
+			padding: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: calc(100vh - 180px); /* Adjust the height as needed */
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.login-form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			max-width: 400px;
+			width: 100%;
+		}
+		.login-form input {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+		}
+		.login-form button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+	</style>
+</head>
+<body style="background-image: url('back.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+	<header>
+		<h1>Storage Wars</h1>
+	</header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="auctions.html">Auctions</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+		<a href="login.html">Customer Login</a>
+		<a href="owner login.html">Owner Login</a>
+	</nav>
+	<main>
+		<div class="login-form">
+			<h2>Login</h2>
+			<form id="login-form" action="index.html" method="post">
+				<label for="username">Username</label>
+				<input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" placeholder="Enter your password" required>
+				
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Bid Wars. All rights reserved.</p>
+	</footer>
+</body>
+</html>
